@@ -9,7 +9,7 @@ class Babysit < Formula
   depends_on "direnv"
   depends_on "gh"
   depends_on "jq"
-  depends_on "yonnock/tap/pr-codex-review"
+  depends_on "yungweng/tap/pr-codex-review"
 
   def install
     bin.install "bin/babysit"

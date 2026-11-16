@@ -9,7 +9,7 @@ class Prbot < Formula
 
   depends_on "go" => :build
   depends_on "gh"
-  depends_on "yonnock/tap/pr-codex-review"
+  depends_on "yungweng/tap/pr-codex-review"
 
   def install
     system "go", "build", *std_go_args(ldflags: "-s -w -X main.Version=#{version}")
