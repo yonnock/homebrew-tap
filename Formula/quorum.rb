@@ -1,7 +1,7 @@
 class Quorum < Formula
   desc "Panel of Codex reviewers for your PRs: review, fix, wait for CI, repeat"
-  homepage "https://github.com/yungweng/quorum"
-  url "https://github.com/yungweng/quorum/archive/refs/tags/v1.21.0.tar.gz"
+  homepage "https://github.com/yonnock/quorum"
+  url "https://github.com/yonnock/quorum/archive/refs/tags/v1.21.0.tar.gz"
   sha256 "25d2e4fe1ebf2d034daadba51491c7cff35c5d48b700a65124c6e594c122566f"
   license "MIT"
 
